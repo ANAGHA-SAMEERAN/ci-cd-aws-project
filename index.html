@@ -3,11 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Anagha CI/CD Project</title>
+
+  <style>
+    body {
+      background-color: #eef6ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    h2 {
+      color: #16a085;
+    }
+
+    h3 {
+      color: #8e44ad;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  </style>
+
 </head>
+
 <body>
+
   <h1>Hello Anagha 🚀</h1>
+
   <p>This is deployed using AWS CI/CD Pipeline</p>
+
   <h2>CI/CD Pipeline Working 🚀</h2>
-  <h3>Live update test</h3>
+
+  <h3>Live update test 🔥</h3>
+
+  <!-- Image -->
+  <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="120">
+
+  <!-- Live Time -->
+  <p id="time"></p>
+
+  <script>
+    const now = new Date();
+    document.getElementById("time").innerHTML = "Current Time: " + now;
+  </script>
+
 </body>
 </html>
